@@ -7,12 +7,7 @@ docker pull cordob/ffmpeg
 
 
 
-
-
-
-
-
-mp4 to h265  변환 
+# mp4 to h265  변환 
 
 sudo docker run --rm -it \
   -v $(pwd):/config \
