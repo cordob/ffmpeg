@@ -7,15 +7,14 @@ sudo snap install docker
 
 # ffmpeg 설치
 
-docker pull cordob/ffmpeg
-
+sudo docker pull jrottenberg/ffmpeg
 
 
 # mp4 to h265  변환 
 
 sudo docker run --rm -it \
   -v $(pwd):/config \
-cordob/ffmpeg \
+jrottenberg/ffmpeg \
   -i /config/10.mp4 \
   -c:v libx265 \
   -c:a copy \
