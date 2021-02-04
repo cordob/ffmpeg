@@ -1,7 +1,9 @@
 # FFmpeg Docker image
 
 
+# 설치
 
+docker pull cordob/ffmpeg
 
 
 
