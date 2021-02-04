@@ -1,7 +1,11 @@
 # FFmpeg Docker image
 
 
-# 설치
+# Docker 설치
+
+sudo snap install docker
+
+# ffmpeg 설치
 
 docker pull cordob/ffmpeg
 
